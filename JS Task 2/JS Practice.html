@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/JS Practice.css" />
+  </head>
+  <body>
+    <div id="form">
+      <h1 id="headdata">Update Data</h1>
+      <label class="label">First Name:</label><br />
+      <input class="input-element" type="text" id="firstname" /><br /> 
+      <label class="label">Last Name:</label><br />
+      <input class="input-element" type="text" id="lastname" /><br
+        id="remove"
+      />
+      <label class="label" id="email-label">Email:</label><br />
+      <input class="input-element" type="text" id="emailname" /><br
+        id="remove1"
+      /> 
+      <label class="label">Avatar</label><br />
+      <input class="input-element" type="text" id="avatar" /><br /><br />
+      <input id="subbtn" type="submit" value="Submit" />
+    </div>
+
+    <h1>User Details</h1>
+    <input type="button" id="additem" onclick="addItem()" value="Add Users" />
+    <img src="/66847.png" class="btn" id="cancel" onclick="cancel()" />
+    <div class="div-container">
+      <table id="user-data">
+        <thead id="header">
+          <tr>
+            <th>Avatar</th>
+            <th>Frist Name</th>
+            <th>Last Name</th>
+            <th>Action</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/JS Practice.JS"></script>
+  </body>
+</html>

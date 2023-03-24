@@ -1,0 +1,39 @@
+body{
+    background-color: #49a09d;
+}
+.table{
+    width: 50%;
+    height: 100vh;
+    border: 0.1px solid white;
+    background-color: #49a09d;
+    border-spacing: 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+#header{
+    background-color: #55608f;
+    height: 60px;
+    /*text-align: center;*/
+    padding:30px;
+}
+td,th{
+    color: white;
+    font-size: 22px;
+    font-family:sans-serif;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.row-container:hover{
+    background-color: #55608f;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+
+
+

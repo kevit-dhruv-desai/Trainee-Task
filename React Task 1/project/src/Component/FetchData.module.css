@@ -1,0 +1,48 @@
+.input {
+  height: 30px;
+  width: 300px;
+}
+.section {
+  text-align: center;
+  margin-top: 25px;
+}
+.table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 30px;
+  font-size: 25px;
+  height: 90%;
+  box-shadow: 1px 0px 15px white;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+th,
+td {
+  border-bottom: 1px solid black;
+  padding: 35px;
+  color: white;
+}
+.img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+}
+.para {
+  position: fixed;
+  left: 45%;
+  top: 50%;
+  font-size: 35px;
+  word-spacing: 5px;
+  color: brown;
+}
+.head:hover {
+  background-color: blueviolet;
+}
+.main:hover {
+  background-color: rgb(202, 145, 235);
+}
